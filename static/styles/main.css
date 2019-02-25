@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400');
+
+html{
+  background:#eee;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.monoton{
+  font-family: 'monoton', sans-serif;
+}

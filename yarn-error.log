@@ -1,0 +1,46 @@
+Arguments: 
+  /Users/dwiargo/.nvm/versions/node/v8.9.1/bin/node /usr/local/bin/yarn add next react router-dom
+
+PATH: 
+  /Users/dwiargo/.rvm/gems/ruby-2.3.0/bin:/Users/dwiargo/.rvm/gems/ruby-2.3.0@global/bin:/Users/dwiargo/.rvm/rubies/ruby-2.3.0/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/dwiargo/.nvm/versions/node/v8.9.1/bin:/usr/local/share/npm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/dwiargo/.rvm/gems/ruby-2.3.0/bin:/Users/dwiargo/.rvm/gems/ruby-2.3.0@global/bin:/Users/dwiargo/.rvm/rubies/ruby-2.3.0/bin:/Library/Frameworks/Python.framework/Versions/3.5/bin:/usr/local/share/npm/bin:/Users/dwiargo/Public/Master/typesafe-activator-1.3.5/activator-dist-1.3.5:/Users/dwiargo/Documents/go/bin:/Users/dwiargo/Library/Android/sdk/tools:/Users/dwiargo/Library/Android/sdk/platform-tools:/Users/dwiargo/.rvm/bin:/Users/dwiargo/Public/Master/typesafe-activator-1.3.5/activator-dist-1.3.5:/Users/dwiargo/Documents/go/bin:/Users/dwiargo/Library/Android/sdk/tools:/Users/dwiargo/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  0.19.1
+
+Node version: 
+  8.9.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "wheater-app",
+    "version": "1.0.0",
+    "description": "skill test",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/router-dom: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/lib/util/request-manager.js:313:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:186:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1081:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/0.19.1/libexec/lib/node_modules/yarn/node_modules/request/request.js:1001:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)

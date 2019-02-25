@@ -1,0 +1,7 @@
+.other-cities{
+  display: flex;
+  flex-wrap: wrap;
+  .weather-card{
+    flex: 1
+  }
+}
